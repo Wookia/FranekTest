@@ -1,0 +1,5 @@
+<input class="form-control" ng-model="inputVal">
+<button ng-click="add()" class="btn btn-warning">add</button>
+<div ng-repeat="element in myArray">
+    <button class="btn btn-link" ng-click="delete($index)">{{element}}</button>
+</div>
